@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Newsreader:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/style.css">
+<title>Sign up – Angeethi</title>
+</head><body>
+<div id="site-header"></div>
+<main class="authwrap"><div class="authbox">
+<h2>Create your account</h2>
+<p class="err" id="msg"></p>
+<form id="register-form">
+<label for="n">Full name</label><input id="n" name="name" required>
+<label for="e">Email</label><input id="e" type="email" name="email" required>
+<label for="p">Phone</label><input id="p" name="phone" required>
+<label for="pw">Password</label><input id="pw" type="password" name="password" required>
+<label for="pw2">Confirm password</label><input id="pw2" type="password" name="password2" required>
+<button class="btn dark" type="submit">Sign up</button>
+</form>
+<p class="alt">Already have an account? <a href="/login.html">Log in</a></p>
+</div></main>
+<div id="site-footer"></div>
+<script src="/js/api.js"></script><script src="/js/auth.js"></script>
+</body></html>
